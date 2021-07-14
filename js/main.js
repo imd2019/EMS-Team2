@@ -421,9 +421,15 @@
 
 
 	var counter = function() {
+		var name=[];
+for(let i=0; i<10; i++) {
+	let number = 210;
+	console.log(number.toString(16));
+}
 		$('.js-counter').countTo({
 			 formatter: function (value, options) {
-	      return value.toFixed(options.decimals);
+				//console.log(options, value);
+				return value.toFixed(options.decimals);
 	    },
 		});
 	};
