@@ -446,6 +446,10 @@ for(let i=0; i<10; i++) {
 			} , { offset: '90%' } );
 		}
 	};
+    
+	var scrollVid = function(){
+		$('#scrollVideo').display("block");
+	}
 
 	// Document on load.
 	$(function(){
